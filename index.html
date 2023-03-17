@@ -1,72 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- This is a placeholder for when you start using CSS -->
-    <link rel="stylesheet" href="index.css" />
-    <title>Template</title>
-  </head>
-  <body>
-    <header>
-      <h1>Braden Dredge</h1>
-      <img src="profile.jpg" alt="me" />
-    </header>
-    <main>
-      <section>
-        <h2>About me</h2>
-        <p>
-          Braden Dredge is a student at Brigham Young University studying Economics and Computer Science. Hobbies include: playing the piano, singing, writing songs, composing arrangements, juggling, playing board games, and trying new places to eat and explore with his wife Kerena.
-        </p>
-        <p>He was born in San Antonio, Texas, and lived in California and Oregon. He served a Spanish-speaking mission for the Church of Jesus Christ of Latter-day Saints in the Guatemala Guatemala City East Mission.
-        </p>
-        <p>
-          Braden takes great pleasure in solving math problems, teaching others, and using his creativity to build things that are useful for other people.
-        </p>
-      </section>
-      <section>
-        <h2>Start up project</h2>
-        <p>
-          <a href="https://startup.curemonolingualism.click/">This</a> is where the description and link to my start up project will go.
-        </p>
-      </section>
-      <section>
-        <h2>Simon project</h2>
-        <p>
-          <a href="https://simon.curemonolingualism.click/">This</a> is where the description and link to my implementation of the
-          Simon will go.
-        </p>
-      </section>
-      <section>
-        <h2>Side projects</h2>
-        <p>
-          <a href="https://prompts.curemonolingualism.click/">This</a> is (another tool) for language students to improve their writing skills.
-        </p>
-      </section>
-      <section>
-        <h2>Web programming assignments</h2>
-        <p>Replace the links below with your CodePen links.</p>
-        <h3>HTML</h3>
-        <ul>
-          <li>
-            <a href="https://codepen.io/braden-dredge/pen/oNMOooK">Introduction</a>
-            - Basic HTML page example
-          </li>
-          <li>
-            <a href="https://codepen.io/braden-dredge/pen/abjxEoe">Structure</a> -
-            All the elements for creating page structure
-          </li>
-          <li>
-            <a href="https://codepen.io/braden-dredge/pen/gOjyXzw">Input</a> - All
-            the elements for receiving user input
-          </li>
-          <li>
-            <a href="https://codepen.io/braden-dredge/pen/BaPEmOR">Media</a> - All
-            the elements for rendering media objects
-          </li>
-        </ul>
-      </section>
-    </main>
-  </body>
-</html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" media="screen">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Braden Dredge</title>
+</head>
+<body>
+  <h1 class="title">Braden Dredge</h1>
+  <span class="tagline">Disciple, Musician &amp; Programmer</span>
+  <nav class="main-nav">
+    <ul>
+      <li><a class="active" id="about-page" data-page="about" href="#">About</a></li>
+      <li><a href="#" id="publications-page" data-page="works">Works</a></li>
+      <li><a href="#" id="contact-page" data-page="contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section data-page-name="about" class="page default">
+    <img class="profile-img" src="profile.jpg" alt="me" />
+    <div class="about-me">
+      <p><h2>Hi! I'm Braden Dredge.</h2> </p>
+      <p>Fun facts about me:</p>
+      <ul>
+        <li>I'm a member of the Church of Jesus Christ of Latter-day Saints! Formerly a ward choir pianist, deacon's quorum president, teacher's quorum president, priest's quorum first assistant, <b>full-time missionary (Guatemala Guatemala City East, Spanish-speaking! 2017-2019)</b>, ward pianist, and elder's quorum secretary. I currently serve as a <b>ward mission leader</b>. And of course, one of the MOST IMPORTANT covenants I have ever made was the one I made with <b>my amazing and beautiful wife Kerena</b>, with whom I was sealed in the Provo City Center Temple in November 2021!</li>
+        <li>I'm completing two bachelors degrees at BYU (Provo, UT) -- one in <b>Economics</b>, and another in <b>Computer Science</b>. I am also completing minors in Design Thinking and Entrepreneurship.</li>
+        <li>I'm a <b>musician!</b> My work can be found on my <a href="https://www.youtube.com/@bradendredge6809/featured">YouTube Channel</a>, or on my <a href="https://soundcloud.com/braden-dredge">SoundCloud</a>. <p><a href="https://soundcloud.com/braden-dredge/white-withered-rose">"White Withered Rose"</a> (vocals, guitar) is a song I wrote back when I was 2014, around the time I moved to Oregon. <a href="https://soundcloud.com/braden-dredge/suburban-seasons">"Suburban Seasons"</a> is a composition (oboe, piano, and strings) I made back in 2015, inspired by the feelings I felt about the neighborhood I moved into. <a href="https://www.youtube.com/watch?v=X_ze73erAGw">"Heavenly Father Has a Plan"</a>  was a song (vocal, piano, violin) I wrote on my mission for the Church of Jesus Christ of Latter-day Saints. <a href="https://www.youtube.com/watch?v=iros7y_fWr0">"Infant Holy, Infant Lowly"</a> is a piano arrangement I made for Sacrament Meeting after returning from my mission.</p></li>
+        <li>I'm a total <b>math geek AND nerd</b>. I am a big fan of Numberphile and OneBlueThreeBrown videos on YouTube. I was so excited about my curvy cup measurement project back in high school calculus that I literally emailed my middle school teacher to tell him about it (I was so proud of it). This is why I chose to study two math-heavy fields, and I aspire to do lots of math in my career.</li>
+        <li>You're reading the bio of a <b>spelling bee champ</b>. Yep. I participated in the California Nationwide Spelling Bee back in my prime. A bit of a grammar Nazi.</li>
+        <li>I'm also a geek for <b>languages</b>. I've started about 4 different languages on Duolingo (Spanish, German, Portuguese, French), and every now and then I try to learn more from each. I also try to find Spotify playlists to listen to so that I get some more exposure.</li>
+      </ul>
+    <br><br><br><br><br>
+    </div>
+  </section>
+  
+  <section data-page-name="works" class="page">
+  <h2 class="subtitle">Programming</h2>
+    <p><a href="https://startup.curemonolingualism.click/">This</a> is a startup I'm developing known as "Cure Monolingualism" (the namesake of this website). I got the idea of the name from Dr. Troy Cox who is a linguistics professor at the BYU Center for Language Studies.</p>
+    <p><a href="https://simon.curemonolingualism.click/">This</a> is a Simon project, built especially for my CS 260 class.</p>
+    <p><a href="https://prompts.curemonolingualism.click/">This</a> is for language students to prepare to take the written proficiency test (WPT).</p>
+    <h2>Web programming assignments</h2>
+    <p>I'm a HTML/CSS/JavaScript king thanks to my CS 260 class at BYU. This list is grossly incomplete.</p>
+    <h3>HTML</h3>
+    <ul>
+      <li>
+        <a href="https://codepen.io/braden-dredge/pen/oNMOooK">Introduction</a>
+        - Basic HTML page example
+      </li>
+      <li>
+        <a href="https://codepen.io/braden-dredge/pen/abjxEoe">Structure</a> -
+        All the elements for creating page structure
+      </li>
+      <li>
+        <a href="https://codepen.io/braden-dredge/pen/gOjyXzw">Input</a> - All
+        the elements for receiving user input
+      </li>
+      <li>
+        <a href="https://codepen.io/braden-dredge/pen/BaPEmOR">Media</a> - All
+        the elements for rendering media objects
+      </li>
+    </ul>
+  <h2 class="subtitle">Music</h2>
+    <p><a href="https://soundcloud.com/braden-dredge/white-withered-rose">"White Withered Rose"</a> (vocals, guitar) is a song I wrote back when I was 2014, around the time I moved to Oregon.</p>
+    <p><a href="https://soundcloud.com/braden-dredge/suburban-seasons">"Suburban Seasons"</a> is a composition (oboe, piano, and strings) I made back in 2015, inspired by the feelings I felt about the neighborhood I moved into.</p>
+    <p><a href="https://www.youtube.com/watch?v=X_ze73erAGw">"Heavenly Father Has a Plan"</a>  was a song (vocal, piano, violin) I wrote on my mission for the Church of Jesus Christ of Latter-day Saints.</p>
+    <p><a href="https://www.youtube.com/watch?v=iros7y_fWr0">"Infant Holy, Infant Lowly"</a> is a piano arrangement I made for Sacrament Meeting after returning from my mission.</p>
+  <br><br><br><br><br>
+  
+</section>
+
+<section data-page-name="contact" class="page">
+  <p>Instagram: <a href="https://www.instagram.com/bkdredge/">@bkdredge</a></p>
+  <br><br><br><br><br>
+</section>
+  
+<!-- Loading -->
+  <div class="loading">
+    <h1 class="loading-title">loading</h1>
+    <div class="loading-progress"></div>
+  </div>
+</body>
